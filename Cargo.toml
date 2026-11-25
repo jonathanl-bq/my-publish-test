@@ -1,6 +1,6 @@
-[package]
-name = "my-publish-test"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+resolver = "3"
+members = ["my-publish-test-a", "my-publish-test-b"]
 
-[dependencies]
+[workspace.package]
+license = "MIT"

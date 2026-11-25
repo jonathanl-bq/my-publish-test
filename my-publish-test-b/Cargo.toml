@@ -1,0 +1,8 @@
+[package]
+name = "my-publish-test-b"
+version = "0.1.0"
+edition = "2024"
+license.workspace = true
+description = "Crate publishing test B"
+
+[dependencies]
